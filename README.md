@@ -32,9 +32,11 @@ Um gerenciador de pacotes como npm ou yarn.
 ```http://localhost:3000```
 3. Veja as informações dos heróis exibidas na tela.
 
+
 Código:
-``` "use client";
- 
+```
+"use client";
+
 import { useEffect, useState } from "react";
 import styles from "./page.module.css";
 
@@ -95,12 +97,14 @@ export default function Home() {
       ))}
     </div>
   );
-}   ```
-
-
-
-Estrutura do Código
+}   
+```
+# Estrutura do Código
 fetchHero(id): Função para buscar dados de um herói específico pela API.
 useEffect: Hook usado para buscar os dados dos heróis quando o componente é montado.
 styles: Módulo de estilos CSS utilizado para personalização visual.
 Componente Home: Renderiza as informações dos heróis com barras de estatísticas de poder estilizadas.
+
+
+
+
