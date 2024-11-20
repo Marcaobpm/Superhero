@@ -99,12 +99,76 @@ export default function Home() {
   );
 }   
 ```
+
+Estilização
+O projeto utiliza o seguinte CSS para estilização dos componentes:
+```
+.heroes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: monospace;
+}
+
+.card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card h1 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card p {
+  padding: 0 10px;
+}
+
+.bar {
+  display: block;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+```
+
+
 # Estrutura do Código
 fetchHero(id): Função para buscar dados de um herói específico pela API.
 useEffect: Hook usado para buscar os dados dos heróis quando o componente é montado.
 styles: Módulo de estilos CSS utilizado para personalização visual.
 Componente Home: Renderiza as informações dos heróis com barras de estatísticas de poder estilizadas.
 
+# Melhorias Futuras
+Adicionar suporte para pesquisa de heróis pelo nome.
+Exibir mais estatísticas ou informações detalhadas.
+Implementar paginação ou rolagem infinita para explorar mais heróis.
 
+# Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+1. Faça um fork do projeto.
+2. Crie um branch para sua feature:
+ ```git checkout -b minha-feature```
+3. Faça suas alterações e comite:
+ ```git commit -m "Adiciona minha feature"```
+4. Envie o Branch:
+   ```git push origin minha-feature```
+5. Abra um Pull Request no repositório principal.
+   
 
 
