@@ -19,5 +19,5 @@ Antes de rodar o projeto, você precisará de:
 Node.js (versão 14 ou superior).
 Um gerenciador de pacotes como npm ou yarn.
 # Instalação
-```git clone https://github.com/seu-usuario/superhero-viewer.git
-   cd superhero-viewer 
+```git clone https://github.com/seu-usuario/superhero-viewer.git```
+   ```cd superhero-viewer ```
